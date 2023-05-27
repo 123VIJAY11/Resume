@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <FrameLayout
+        android:id="@+id/container_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/ED_edit_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resume"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+               android:layout_margin="@dimen/_5sdp"
+                android:layout_marginBottom="20dp"/>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="@android:color/white"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/name"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@android:color/white"
+                    android:textColor="@android:color/black"
+                   android:layout_margin="@dimen/_5sdp"
+                    android:text="Name :-"
+                    android:gravity="center_vertical"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="@android:color/white"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/email"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@android:color/white"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:text="email :-"
+                    android:gravity="center_vertical"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="6dp"
+                app:cardBackgroundColor="@android:color/white"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/phone"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@android:color/white"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:text="phone Number :-"
+                    android:gravity="center_vertical"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="@android:color/white"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/Address"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@android:color/white"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:text=" Address :-"
+                    android:gravity="center_vertical" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="@android:color/white"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/Experience"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@android:color/white"
+                    android:textColor="@android:color/black"
+                   android:layout_margin="@dimen/_5sdp"
+                    android:text="Experience :-"
+                    android:gravity="center_vertical"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="1dp"
+                app:cardBackgroundColor="@android:color/white"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/skills"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@android:color/white"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:text="skills :-"
+                    android:gravity="center_vertical"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="1dp"
+                app:cardBackgroundColor="@android:color/white"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:id="@+id/reference"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@android:color/white"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:text="reference :-"
+                    android:gravity="center_vertical"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>
